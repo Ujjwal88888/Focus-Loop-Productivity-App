@@ -1,0 +1,24 @@
+# --- Python Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+venv/
+env/
+# SQLite Database (Exclude so others don't get your personal metrics)
+backend/focus_loop.db
+
+# --- React Frontend (Vite) ---
+node_modules/
+dist/
+dist-ssr/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# --- Chrome Extension ---
+*.crx
+*.pem
